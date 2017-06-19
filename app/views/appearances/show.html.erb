@@ -1,0 +1,4 @@
+<h2>Your Ratings</h2>
+<% @appearances.each do |a| %>
+<%= a.guest | a.episode | a.rating %> <br>
+<% end %>
